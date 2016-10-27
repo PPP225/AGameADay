@@ -73,8 +73,8 @@ dependencies (below) are available on the target platform.
 ## Game List
 
 Number | Game | Lines of code | Comments
-----|---------|------
+:---|:--------|:-------------:|:--------
 000 | Template | 150 | Base new game files on this.
 001 | Italo-Turkish Bomber Simulator 1911 | 790 | Brute forced this as fast as possible. The code is a mess.
 002 | Pong | 460 | This code is quite organised and readable. 
-003 | - | - | -
+003 | - | - | -| 1-2 Players
