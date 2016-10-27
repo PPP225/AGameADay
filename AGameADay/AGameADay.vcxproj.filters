@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BaseFiles">
+      <UniqueIdentifier>{527f47d8-3578-41f7-9ae5-5cf73be34839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles">
+      <UniqueIdentifier>{0c174893-02e9-40a8-876f-9e203a4a462e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseFiles\OpenGL">
+      <UniqueIdentifier>{074ea25c-d6fa-474c-9b8a-4863fcfd5ec9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game0.cpp">
+      <Filter>GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Game1.cpp">
+      <Filter>GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="AGameADay.cpp">
+      <Filter>BaseFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>BaseFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>BaseFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEngine.cpp">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Game2.cpp">
+      <Filter>GameFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game1.h">
+      <Filter>GameFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Game0.h">
+      <Filter>GameFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>BaseFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>BaseFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEngine.h">
+      <Filter>BaseFiles\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Game2.h">
+      <Filter>GameFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.md" />
+  </ItemGroup>
+</Project>

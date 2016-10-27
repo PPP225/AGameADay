@@ -1,0 +1,8 @@
+bgm (original: "funky_bubbles.xm")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/index.php?request=view_by_moduleid&query=134755
+
+pongblip (original: "PongBlipF4.wav"):
+Author: NoiseCollector
+License: CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+Source: https://freesound.org/people/NoiseCollector/sounds/4359/

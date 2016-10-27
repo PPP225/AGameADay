@@ -1,0 +1,22 @@
+Fire:
+Author: Assast
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://github.com/PPP225/AGameADay
+
+bomb1 (original: "atari_boom.wav"), bomb2 (original: "atari_boom5.wav"):
+Author: dklon
+License: CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+Source: http://opengameart.org/content/atari-booms
+
+engine (original: "synthetic-low-rev-engine"): (converted to OGG with low quality setting to make it sound differently!)
+Author: Timbre
+License: CC BY-NC 3.0 - https://creativecommons.org/licenses/by-nc/3.0/
+Source: https://freesound.org/people/Timbre/sounds/115271/
+
+victory (anthem of kingdom of italy 1861-1946)
+Source: https://www.youtube.com/watch?v=D8e6zNgg-KI
+
+fail (original: "airplane+divcrash")
+Author: Partners In Rhyme 
+License: http://www.freesoundeffects.com/licence.php
+Source: http://www.freesoundeffects.com/free-track/airplane-divcrash-89260/

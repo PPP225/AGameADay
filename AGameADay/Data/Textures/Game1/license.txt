@@ -1,0 +1,24 @@
+Plane, Soldier, OttomanFlag, ItalyFlag:
+Author: PPP225
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://github.com/PPP225/AGameADay
+
+Explosion1 & Explosion2 (both cropped):
+Author: Bleed
+License: CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+Source: http://opengameart.org/content/simple-explosion-bleeds-game-art
+
+BG, Crate:
+Author: pzUH
+License: CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/
+Source: http://opengameart.org/content/free-desert-platformer-tileset
+
+Fire:
+Author: kungfu4000
+License: CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/
+Source: http://opengameart.org/content/fire-wave-32x32
+
+Grenade:
+Author: Rod
+License: CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+Source: http://opengameart.org/content/piratey-weapons
