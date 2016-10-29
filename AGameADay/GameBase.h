@@ -27,7 +27,7 @@ public:
 
 	glm::vec2 GetCenter();
 
-private:
+protected:
 	GLboolean initialized_ = GL_FALSE;
 };
 
