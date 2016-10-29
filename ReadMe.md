@@ -14,6 +14,7 @@ System Requirements:
 
 Keys | Action
 ----------|--------
+P | Pause / Controls
 F5 | Restart game
 F9 / - | Volume -
 F10 / + | Volume +
@@ -22,12 +23,13 @@ ESC | Exit game
 
 -------------------------------------------------------------------------------
 
-## Game List
+## Game List ([Image album](http://imgur.com/a/ScdOV))
 
 Number | Game | Idea | Notes | Multiplayer
 ----|---------|------|-------|------------
-001 | Italo-Turkish Bomber Simulator 1911 | Assast | Inspired by "Wings of Fury" (Amiga) | -
-002 | Pong | PPP225 | - | 1-2 Players
+[001](http://imgur.com/TNlZMzl) | Italo-Turkish Bomber Simulator 1911 | [Assast](https://github.com/PPP225/AGameADay) | Inspired by "Wings of Fury" (Amiga) | -
+[002](http://imgur.com/HzosY47) | Pong | [PPP225](https://github.com/PPP225/AGameADay) | - | 1-2 Players
+[003](http://imgur.com/xsasClZ) | Basic Tetris | [d3m4n](https://www.steamgifts.com/go/comment/NS4D6Zr) | - | - 
 
 -------------------------------------------------------------------------------
 

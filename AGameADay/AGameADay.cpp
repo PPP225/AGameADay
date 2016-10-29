@@ -13,6 +13,7 @@
 #include "Game0.h"
 #include "Game1.h"
 #include "Game2.h"
+#include "Game3.h"
 
  // --------------------------------------------------------- Definitions ---------------------------------------------------------
 
@@ -76,7 +77,9 @@ int main() {
 		else if (input == "help" || input == "h" || input == "ls" || input == "dir" || input == "games" || input == "list" || input == "gamelist" || input == "g" || input == "gl")
 			std::cout << "Gamelist:" << std::endl <<
 			"001: Italo-Turkish Bomber Simulator 1911" << std::endl <<
-			"002: Pong" << std::endl;
+			"002: Pong" << std::endl <<
+			"003: Basic Tetris" << std::endl <<
+			" ";
 		else
 		{
 			// check game number
@@ -108,6 +111,9 @@ int main() {
 				break;
 			case 2:
 				TheGame = new Game2();
+				break;
+			case 3:
+				TheGame = new Game3();
 				break;
 			default:
 				std::cout << "No such game number." << std::endl;

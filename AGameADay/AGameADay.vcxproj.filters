@@ -54,6 +54,9 @@
     <ClCompile Include="Game2.cpp">
       <Filter>GameFiles</Filter>
     </ClCompile>
+    <ClCompile Include="Game3.cpp">
+      <Filter>GameFiles</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game1.h">
@@ -81,6 +84,9 @@
       <Filter>BaseFiles\OpenGL</Filter>
     </ClInclude>
     <ClInclude Include="Game2.h">
+      <Filter>GameFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3.h">
       <Filter>GameFiles</Filter>
     </ClInclude>
   </ItemGroup>

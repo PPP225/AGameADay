@@ -76,6 +76,14 @@
     <IncludePath>C:\Users\P\Documents\Dependencies\includes;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\P\Documents\Dependencies\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\P\Documents\Dependencies\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\P\Documents\Dependencies\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\P\Documents\Dependencies\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\P\Documents\Dependencies\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -92,6 +100,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;freetype.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -118,6 +129,7 @@
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;freetype.lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -125,6 +137,7 @@
     <ClCompile Include="Game0.cpp" />
     <ClCompile Include="Game1.cpp" />
     <ClCompile Include="Game2.cpp" />
+    <ClCompile Include="Game3.cpp" />
     <ClCompile Include="GameBase.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="SoundEngine.cpp" />
@@ -136,6 +149,7 @@
     <ClInclude Include="Game0.h" />
     <ClInclude Include="Game1.h" />
     <ClInclude Include="Game2.h" />
+    <ClInclude Include="Game3.h" />
     <ClInclude Include="GameBase.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="SoundEngine.h" />
