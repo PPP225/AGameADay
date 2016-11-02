@@ -2,7 +2,9 @@
 
 -------------------------------------------------------------------------------
 
-Game can be downloaded here: https://www.mediafire.com/folder/ztm4x3n8x5dsh/AGameADay
+## Download
+
+Game can be downloaded here: [**MEDIAFIRE**](https://www.mediafire.com/folder/ztm4x3n8x5dsh/AGameADay)
 
 System Requirements:
 * OpenGL 3.3 (DirectX10) compatible graphics card
@@ -10,12 +12,18 @@ System Requirements:
 
 -------------------------------------------------------------------------------
 
+## Community links, contact, requests
+
+ * [Steamgifts discussion](https://www.steamgifts.com/discussion/otIXl/im-making-simple-2d-games-on-request-ga-inside)
+
+-------------------------------------------------------------------------------
+
 ## Common game controls
 
 Keys | Action
 ----------|--------
-P | Pause / Controls
-F5 | Restart game
+P | Pause / View Controls
+F5 | Restart Game
 F9 / - | Volume -
 F10 / + | Volume +
 F11 | Fullscreen
