@@ -4,7 +4,7 @@
 
 ## Download
 
-Game can be downloaded here: [**MEDIAFIRE**](https://www.mediafire.com/folder/ztm4x3n8x5dsh/AGameADay)
+Game can be downloaded: [**HERE**](https://github.com/PPP225/AGameADay/releases), [(mirror)](https://www.mediafire.com/folder/ztm4x3n8x5dsh/AGameADay)
 
 System Requirements:
 * OpenGL 3.3 (DirectX10) compatible graphics card
