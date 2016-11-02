@@ -30,13 +30,14 @@ public:
 	void RenderNext(SpriteRenderer& renderer, glm::mat4& projection, GLfloat gameUnit, glm::vec2 position);
 
 	void Spawn();
-	static glm::vec4& GetTypeColor(GLbyte type);
+	static glm::vec4 GetTypeColor(GLbyte type);
 
 	void MoveLeft(Game3LevelContainer& level);
 	void MoveRight(Game3LevelContainer& level);
 	// returns Event
 	EmplaceEvent MoveDown(Game3LevelContainer& level);
 	void RotateRight(Game3LevelContainer& level);
+	void RotateLeft(Game3LevelContainer& level);
 
 	GLboolean Collision(Game3LevelContainer& level);
 
@@ -52,7 +53,7 @@ private:
 // Level ---------------------------------------------------------------------------------------
 
 struct Game3LevelRow { 
-	friend class Game3LevelContainer;
+	friend struct Game3LevelContainer;
 	friend class Game3Level;
 
 public:

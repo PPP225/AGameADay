@@ -18,7 +18,23 @@ Author: Timbre
 License: CC BY-NC 3.0 - https://creativecommons.org/licenses/by-nc/3.0/
 Source: https://freesound.org/people/Timbre/sounds/74259/
 
-bgm1 (original: "bradinsky.mid") 
+bgm1 (original: "dalezy-tetris.xm")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?67237
+
+bgm2 (original: "super_mario_land_underground.xm")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?169948
+
+bgm3 (original: "tetris_b_theme.xm")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?170587
+
+bgm4 (original: "tetris_c_theme.xm")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?170586
+
+bgm5 (original: "bradinsky.mid") 
 License: CC BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
 Source: http://www.khinsider.com/midi/nes/tetris-by-tengen
 

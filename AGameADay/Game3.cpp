@@ -208,7 +208,7 @@ void Game3Stone::Spawn()
 	this->Color = GetTypeColor(this->Type);
 }
 
-glm::vec4& Game3Stone::GetTypeColor(GLbyte type)
+glm::vec4 Game3Stone::GetTypeColor(GLbyte type)
 {
 	switch (type)
 	{
@@ -283,6 +283,20 @@ void Game3Stone::RotateRight(Game3LevelContainer & level)
 			Rotation = 3;
 		else
 			Rotation -= 1;
+	}
+}
+
+void Game3Stone::RotateLeft(Game3LevelContainer & level)
+{
+	Rotation -= 1;
+	if (Rotation < 0)
+		Rotation = 3;
+	if (Collision(level))
+	{
+		if (Rotation == 0)
+			Rotation = 3;
+		else
+			Rotation += 1;
 	}
 }
 
@@ -498,7 +512,7 @@ void Game3::Init()
 GLfloat holdingS = 0.0f;
 GLfloat holdingA = 0.0f;
 GLfloat holdingD = 0.0f;
-const GLfloat hold_time_treshold_ = 0.2f;
+const GLfloat hold_time_treshold_ = 0.12f;
 
 void Game3::ProcessKeys(GLfloat dt)
 {
@@ -532,6 +546,14 @@ void Game3::ProcessKeys(GLfloat dt)
 		return;
 
 	// handle wsad input
+	if (this->Keys[GLFW_KEY_Q] && !this->KeysProcessed[GLFW_KEY_Q]) {
+		Stone.RotateLeft(Level.GetData());
+		this->KeysProcessed[GLFW_KEY_Q] = GL_TRUE;
+	}
+	if (this->Keys[GLFW_KEY_E] && !this->KeysProcessed[GLFW_KEY_E]) {
+		Stone.RotateRight(Level.GetData());
+		this->KeysProcessed[GLFW_KEY_E] = GL_TRUE;
+	}
 	if (this->Keys[GLFW_KEY_W] && !this->KeysProcessed[GLFW_KEY_W]) {
 		Stone.RotateRight(Level.GetData());
 		this->KeysProcessed[GLFW_KEY_W] = GL_TRUE;
@@ -553,7 +575,7 @@ void Game3::ProcessKeys(GLfloat dt)
 			if (holdingS > hold_time_treshold_)
 			{
 				eevent = Stone.MoveDown(Level.GetData());
-				holdingS -= 0.1f;
+				holdingS -= 0.05f;
 			}
 		}
 	}
@@ -572,7 +594,7 @@ void Game3::ProcessKeys(GLfloat dt)
 			if (holdingA > hold_time_treshold_)
 			{
 				Stone.MoveLeft(Level.GetData());
-				holdingA -= 0.1f;
+				holdingA -= 0.05f;
 			}
 		}
 	}
@@ -591,7 +613,7 @@ void Game3::ProcessKeys(GLfloat dt)
 			if (holdingD > hold_time_treshold_)
 			{
 				Stone.MoveRight(Level.GetData());
-				holdingD -= 0.1f;
+				holdingD -= 0.05f;
 			}
 		}
 	}
@@ -658,7 +680,7 @@ void Game3::Render()
 void Game3::RestartGame()
 {
 	this->MusicPlayer.StopAllSounds();
-	this->MusicPlayer.PlaySound("Data/Audio/Game3/bgm1.it", true);
+	this->MusicPlayer.PlaySound("Data/Audio/Game3/bgm1.xm", true);
 
 	Level.Clear();
 	Stone.Spawn();
@@ -684,7 +706,29 @@ void Game3::LevelAdvancement()
 		this->LevelSpeed -= 0.05f;
 		if (this->LevelSpeed < 0.1f)
 			this->LevelSpeed = 0.1f;
+
+		if (this->LevelNum == 3)
+		{
+			this->MusicPlayer.StopSound("Data/Audio/Game3/bgm1.xm");
+			this->MusicPlayer.PlaySound("Data/Audio/Game3/bgm2.xm", true);
+		}
+		else if (this->LevelNum == 5)
+		{
+			this->MusicPlayer.StopSound("Data/Audio/Game3/bgm2.xm");
+			this->MusicPlayer.PlaySound("Data/Audio/Game3/bgm3.xm", true);
+		}
+		else if (this->LevelNum == 7)
+		{
+			this->MusicPlayer.StopSound("Data/Audio/Game3/bgm3.xm");
+			this->MusicPlayer.PlaySound("Data/Audio/Game3/bgm4.xm", true);
+		}
+		else if (this->LevelNum == 9)
+		{
+			this->MusicPlayer.StopSound("Data/Audio/Game3/bgm4.xm");
+			this->MusicPlayer.PlaySound("Data/Audio/Game3/bgm5.it", true);
+		}
 	}
+
 }
 
 void Game3::AddScore(EmplaceEvent e)
@@ -714,7 +758,7 @@ void Game3::AddScore(EmplaceEvent e)
 		LevelScore += 40;
 		break;
 	case EmplaceEvent::GAME:
-		this->MusicPlayer.StopSound("Data/Audio/Game3/bgm1.it");
+		this->MusicPlayer.StopAllSounds();
 		this->MusicPlayer.PlaySound("Data/Audio/Game3/gameover.ogg");
 		game_over_ = GL_TRUE;
 		break;
@@ -738,8 +782,9 @@ void Game3::RenderPauseBackground()
 	glm::vec3 grey(0.5f, 0.5f, 0.5f);
 	this->TextRenderer.RenderText("GAME PAUSED", 170, (GLint)this->Height - 100, this->Projection, white, Alignment::CENTER);
 
-	this->TextRenderer.RenderText("Controls: ", this->Width - 10.0f, 80.0f, this->Projection, white, Alignment::BACKWARDS);
-	this->TextRenderer.RenderText("WSAD to move", this->Width - 10.0f, 50.0f, this->Projection, grey, Alignment::BACKWARDS);
+	this->TextRenderer.RenderText("Controls: ", this->Width - 10.0f, 110.0f, this->Projection, white, Alignment::BACKWARDS);
+	this->TextRenderer.RenderText("QWE to rotate", this->Width - 10.0f, 80.0f, this->Projection, grey, Alignment::BACKWARDS);
+	this->TextRenderer.RenderText("ASD to move", this->Width - 10.0f, 50.0f, this->Projection, grey, Alignment::BACKWARDS);
 	this->TextRenderer.RenderText("Space or P to pause/unpause", this->Width - 10.0f, 20.0f, this->Projection, grey, Alignment::BACKWARDS);
 }
 
