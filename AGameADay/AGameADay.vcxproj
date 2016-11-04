@@ -138,6 +138,7 @@
     <ClCompile Include="Game1.cpp" />
     <ClCompile Include="Game2.cpp" />
     <ClCompile Include="Game3.cpp" />
+    <ClCompile Include="Game4.cpp" />
     <ClCompile Include="GameBase.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="SoundEngine.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Game1.h" />
     <ClInclude Include="Game2.h" />
     <ClInclude Include="Game3.h" />
+    <ClInclude Include="Game4.h" />
     <ClInclude Include="GameBase.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="SoundEngine.h" />

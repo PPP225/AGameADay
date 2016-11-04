@@ -78,4 +78,5 @@ Number | Game | Lines of code | Comments
 001 | Italo-Turkish Bomber Simulator 1911 | 790 | Brute forced this as fast as possible. The code is a mess.
 002 | Pong | 460 | - 
 003 | Basic Tetris | 860 | Tetris gamelogic is trickier than it seems at first glance
-004 | - | - | - | 
+004 | Politics 20016 | 2060 | This game is too big for this project. Without some code engineering, this has become a hackfest :D
+005 | - | - | - 

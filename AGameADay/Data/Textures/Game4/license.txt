@@ -1,0 +1,44 @@
+map
+Author: PPP225
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://github.com/PPP225/AGameADay
+
+earth, sun:
+Author: Rawdanitsu
+License: CC0 Public Domain
+Source: http://opengameart.org/content/planets-and-stars-set-high-res
+
+background, map (background):
+Author: Florian R. A. Angermeier (fraang)
+License: http://creativecommons.org/licenses/by-sa/3.0/
+Source: http://opengameart.org/content/space-backgrounds-0
+
+home:
+Author: ac3raven
+License: http://creativecommons.org/licenses/by-sa/3.0/
+Source: http://opengameart.org/content/solar-system
+
+player (modified, mixed with Guy Fawkes mask):
+Author: MillionthVector
+Website: http://millionthvector.blogspot.de
+License: http://creativecommons.org/licenses/by/3.0/
+Source: http://opengameart.org/content/fighter2-spaceship
+
+lk1-28 & rk1-28
+inspiration: http://www.informationisbeautiful.net/visualizations/left-vs-right-us/
+Author: PPP225
+License: CC0 Public Domain
+Source: https://github.com/PPP225/AGameADay
+
+wall (original: "DSC_1024_0.jpg") (cropped and scaled down)
+Author: William.Thompsonj
+License: CC0 - Public Domain
+Source: http://opengameart.org/content/stone-wall-0
+
+/Story/*
+Author: PPP225 - https://github.com/PPP225/AGameADay
+License: CC BY 4.0
+Using images from: http://opengameart.org/content/2d-space-shooter-pack (licensed under CC0)
+
+other images
+Used under fair use in a non-commercial parody game, heavily reduced their quality.

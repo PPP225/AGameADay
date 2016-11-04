@@ -1,0 +1,21 @@
+bgm1 (original: "pkk_-_usa92.mod")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?171115
+
+bgmright (original: "latinothe_town.s3m")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?70859
+
+bgmleft (original: "modemulance-restored.xm")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?52290
+
+boom (original: "atari_boom.wav"):
+Author: dklon
+License: CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+Source: http://opengameart.org/content/atari-booms
+
+laser (original: "laser1.wav"):
+Author: dklon
+License: CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+Source: http://opengameart.org/content/laser-fire

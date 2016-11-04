@@ -14,6 +14,7 @@
 #include "Game1.h"
 #include "Game2.h"
 #include "Game3.h"
+#include "Game4.h"
 
  // --------------------------------------------------------- Definitions ---------------------------------------------------------
 
@@ -79,6 +80,7 @@ int main() {
 			"001: Italo-Turkish Bomber Simulator 1911" << std::endl <<
 			"002: Pong" << std::endl <<
 			"003: Basic Tetris" << std::endl <<
+			"004: Politics 20016" << std::endl <<
 			" ";
 		else
 		{
@@ -87,11 +89,11 @@ int main() {
 			try {
 				gameNumber = std::stoi(input);
 			}
-			catch (std::invalid_argument& e) {
+			catch (std::invalid_argument&) {
 				std::cout << "No such command." << std::endl;
 				continue;
 			}
-			catch (std::out_of_range& e) {
+			catch (std::out_of_range&) {
 				std::cout << "No such game." << std::endl;
 				continue;
 			}
@@ -114,6 +116,9 @@ int main() {
 				break;
 			case 3:
 				TheGame = new Game3();
+				break;
+			case 4:
+				TheGame = new Game4();
 				break;
 			default:
 				std::cout << "No such game number." << std::endl;
