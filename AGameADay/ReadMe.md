@@ -79,4 +79,4 @@ Number | Game | Lines of code | Comments
 002 | Pong | 460 | - 
 003 | Basic Tetris | 860 | Tetris gamelogic is trickier than it seems at first glance
 004 | Politics 20016 | 2060 | This game is too big for this project. Without some code engineering, this has become a hackfest :D
-005 | - | - | - 
+005 | Classic Snake | 500 | - 

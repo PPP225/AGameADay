@@ -1,0 +1,7 @@
+White:
+License: CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/
+
+Rest:
+Author: PPP225
+License: CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Source: https://github.com/PPP225/AGameADay

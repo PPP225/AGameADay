@@ -15,6 +15,7 @@
 #include "Game2.h"
 #include "Game3.h"
 #include "Game4.h"
+#include "Game5.h"
 
  // --------------------------------------------------------- Definitions ---------------------------------------------------------
 
@@ -81,6 +82,7 @@ int main() {
 			"002: Pong" << std::endl <<
 			"003: Basic Tetris" << std::endl <<
 			"004: Politics 20016" << std::endl <<
+			"005: Snake Classic" << std::endl <<
 			" ";
 		else
 		{
@@ -119,6 +121,9 @@ int main() {
 				break;
 			case 4:
 				TheGame = new Game4();
+				break;
+			case 5:
+				TheGame = new Game5();
 				break;
 			default:
 				std::cout << "No such game number." << std::endl;

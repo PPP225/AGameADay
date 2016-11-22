@@ -39,6 +39,7 @@ Number | Game | Idea | Notes | Multiplayer
 [002](http://imgur.com/HzosY47) | Pong | [PPP225](https://github.com/PPP225/AGameADay) | - | 1-2 Players
 [003](http://imgur.com/xsasClZ) | Basic Tetris | [d3m4n](https://www.steamgifts.com/go/comment/NS4D6Zr) | - | - 
 [004](http://imgur.com/6UPZ9Wu) | Politics 20016 | [t0b3berlin](https://www.steamgifts.com/go/comment/vbX3xMu) | It's a parody game. Don't be mad (^_-) | -
+[005](http://imgur.com/X4AsM7n) | Classic Snake | [gegeru](https://www.steamgifts.com/go/comment/ajfUHM9) | - | -
 
 -------------------------------------------------------------------------------
 

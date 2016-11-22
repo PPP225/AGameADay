@@ -1,0 +1,12 @@
+bgm1 (original: "snake.mod")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?80664
+
+bgm2 (original: "snake-jam_94.mod")
+License: https://modarchive.org/index.php?terms-upload
+Source: https://modarchive.org/module.php?93507
+
+munch (original: "Apple_Crunch_15.wav" - changed dynamic range and converted to ogg):
+Author: Koops
+License: CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+Source: https://freesound.org/people/Koops/sounds/20278/
