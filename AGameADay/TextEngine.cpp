@@ -16,7 +16,7 @@ TextEngine::~TextEngine()
 		glDeleteTextures(1, &it.second.TextureID);
 }
 
-void TextEngine::Init(GLuint textSize)
+void TextEngine::Init(GLuint textSize, std::string fontPath)
 {
 	ReInit();
 
@@ -32,7 +32,7 @@ void TextEngine::Init(GLuint textSize)
 	if (FT_Init_FreeType(&ft))
 		std::cout << ("ERROR::FREETYPE: Could not init FreeType Library");
 
-	if (FT_New_Face(ft, "Data/Fonts/arial.ttf", 0, &face))
+	if (FT_New_Face(ft, fontPath.c_str(), 0, &face))
 		std::cout << ("ERROR::FREETYPE: Failed to load font");
 
 	FT_Set_Pixel_Sizes(face, 0, textSize);

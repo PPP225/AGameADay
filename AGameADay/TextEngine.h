@@ -27,7 +27,7 @@ public:
 	TextEngine();
 	~TextEngine();
 	/** USAGE TIP: May be initialized many times to different values */
-	void Init(GLuint textSize = 24);
+	void Init(GLuint textSize = 24, std::string fontPath = "Data/Fonts/arial.ttf");
 	/** Returns text length in pixels */
 	GLuint CheckTextLength(std::string text);
 	/** Returns text height in pixels. (i.e. height of char "I", as opposed to "g", "j" etc.) */
