@@ -8,6 +8,19 @@
 #include "SoundEngine.h"
 #include "TextEngine.h"
 
+class Color
+{
+public:
+	const static glm::vec4 White;
+	const static glm::vec4 Grey25;
+	const static glm::vec4 Grey50;
+	const static glm::vec4 Grey75;
+	const static glm::vec4 Black;
+
+	const static glm::vec4 SharpRed;
+	const static glm::vec4 Red;
+};
+
 class GameObjectBase
 {
 public:
@@ -57,5 +70,7 @@ protected:
 	SpriteRenderer Renderer;
 	SoundEngine MusicPlayer;
 	TextEngine TextRenderer;
+
+	GLboolean HandleKey(GLint key);
 };
 

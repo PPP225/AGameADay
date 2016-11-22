@@ -2,8 +2,18 @@
 
 #include <iostream>
 
-// ------------------------------------------------------------------------- GameObject Base -------------------------------------------------------------------------
 
+// ------------------------------------------------------------------------- Color -------------------------------------------------------------------------
+
+const glm::vec4 Color::White = glm::vec4(1, 1, 1, 1);
+const glm::vec4 Color::Grey25 = glm::vec4(0.25f, 0.25f, 0.25f, 1.0f);
+const glm::vec4 Color::Grey50 = glm::vec4(0.5f, 0.5f, 0.5f, 1.0f);
+const glm::vec4 Color::Grey75 = glm::vec4(0.75f, 0.75f, 0.75f, 1.0f);
+const glm::vec4 Color::Black = glm::vec4(0, 0, 0, 1);
+const glm::vec4 Color::SharpRed = glm::vec4(1, 0, 0, 1);
+const glm::vec4 Color::Red = glm::vec4(225.0f/255.0f, 0.0f, 25.0f/255.0f, 1.0f);
+
+// ------------------------------------------------------------------------- GameObject Base -------------------------------------------------------------------------
 
 void GameObjectBase::Init(Texture2D & texture, glm::vec2 position, glm::vec2 size)
 {
@@ -98,4 +108,13 @@ void GameBase::Render()
 {
 	// currently nothing here.
 	// things like an FPS counter may be added here.
+}
+
+GLboolean GameBase::HandleKey(GLint key)
+{
+	if (this->Keys[key] && !this->KeysProcessed[key]) {
+		this->KeysProcessed[key] = GL_TRUE;
+		return GL_TRUE;
+	}
+	return GL_FALSE;
 }
